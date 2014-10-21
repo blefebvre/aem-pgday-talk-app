@@ -8,7 +8,7 @@
         jcr:primaryType="nt:unstructured"
         jcr:title="pgday-talk App Design"
         sling:resourceType="wcm/core/components/designer">
-        <ng-ionic-page jcr:primaryType="nt:unstructured">
+        <prez-page jcr:primaryType="nt:unstructured">
             <content-par
                 jcr:lastModified="{Date}2014-03-26T10:01:29.273-06:00"
                 jcr:lastModifiedBy="admin"
@@ -17,6 +17,6 @@
                 components="[/apps/geometrixx-outdoors-app/components/image,group:PhoneGap,group:PhoneGap API]">
                 <section jcr:primaryType="nt:unstructured"/>
             </content-par>
-        </ng-ionic-page>
+        </prez-page>
     </jcr:content>
 </jcr:root>

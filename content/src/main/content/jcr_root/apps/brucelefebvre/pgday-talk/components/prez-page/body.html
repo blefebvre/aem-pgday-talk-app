@@ -1,3 +1,10 @@
 <body>
-    HELLO!
+	<div data-sly-test.author="${wcmmode.edit || wcmmode.design}">
+        Hi author!
+    </div>
+	<div data-sly-test="${!author}" data-sly-list="${ currentPage.listChildren }">
+        <section data-sly-resource="${ item.path @ selectors='section', wcmmode='disabled', resourceType=item.contentResource.sling:resourceType }">
+            ${item}
+		</section>
+    </div>
 </body>

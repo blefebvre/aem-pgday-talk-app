@@ -8,7 +8,7 @@
         cq:lastReplicated="{Date}2014-02-28T01:29:47.720-05:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
-        cq:template="/apps/brucelefebvre/pgday-talk/templates/ng-ionic-page"
+        cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
