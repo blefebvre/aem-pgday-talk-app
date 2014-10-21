@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/brucelefebvre/pgday-talk"/>
+    <filter root="/content/phonegap/brucelefebvre/pgday-talk"/>
+    <filter root="/etc/clientlibs/brucelefebvre/ionic"/>
+    <filter root="/etc/clientlibs/brucelefebvre/angular-snap"/>
+    <filter root="/etc/designs/phonegap/brucelefebvre/pgday-talk"/>
+    <filter root="/content/dam/brucelefebvre/pgday-talk"/>
+</workspaceFilter>
