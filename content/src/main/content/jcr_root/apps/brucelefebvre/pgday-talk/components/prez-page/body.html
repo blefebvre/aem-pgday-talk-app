@@ -1,18 +1,20 @@
-<body class='reveal' data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
-	<div class='slides'>
-        <section data-sly-include='section.html'>
-        </section>
+<body data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+	<div class='reveal'>
+		<div class='slides'>
+			<section data-sly-include='section.html'>
+			</section>
 
-        <div data-sly-test='${!author}' data-sly-list.item='${ currentPage.listChildren }' data-sly-unwrap>
-            <section data-sly-resource="${ item.path @ selectors='section' }">
-                ${item}
-            </section>
-        </div>
-    </div>
+			<div data-sly-test='${!wcmmode.edit && !wcmmode.design}' data-sly-list.item='${ currentPage.listChildren }' data-sly-unwrap>
+				<section data-sly-resource="${ item.path @ selectors='section' }">
+					${item}
+				</section>
+			</div>
+		</div>
+	</div>
 
 	<meta data-sly-call="${clientLib.all @ categories='apps.brucelefebvre.pgday-talk.all'}" data-sly-unwrap></meta>
 
-    <script>
+	<script>
 
 		// Full list of configuration options available here:
 		// https://github.com/hakimel/reveal.js#configuration
@@ -28,8 +30,8 @@
 			width: 960,
 			height: 700,
 
-		    // Factor of the display size that should remain empty around the content
-		    margin: 0.06,
+			// Factor of the display size that should remain empty around the content
+			margin: 0.06,
 
 			// Bounds for smallest/largest possible scale to apply to content
 			minScale: 0.2,
@@ -43,7 +45,7 @@
 			// parallaxBackgroundSize: '2100px 900px',
 
 			// Optional libraries used to extend on reveal.js
-			dependencies: [			]
+			dependencies: [         ]
 		});
 
 	</script>
