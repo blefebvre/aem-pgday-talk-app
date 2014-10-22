@@ -3,7 +3,7 @@
         <div data-sly-include="section.html" data-sly-unwrap></div>
     </div>
 	<div data-sly-test="${!author}" data-sly-list.item="${ currentPage.listChildren }">
-        <section data-sly-resource="${ item.path @ selectors='section', wcmmode='disabled', resourceType=item.contentResource.sling:resourceType }">
+        <section data-sly-resource="${ item.path @ selectors='section' }">
             ${item}
 		</section>
     </div>
