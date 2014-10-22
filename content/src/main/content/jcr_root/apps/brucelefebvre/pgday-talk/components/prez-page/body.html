@@ -16,40 +16,5 @@
 
 	<meta data-sly-call="${clientLib.all @ categories='apps.brucelefebvre.pgday-talk.all'}" data-sly-unwrap></meta>
 
-	<script>
-
-		// Full list of configuration options available here:
-		// https://github.com/hakimel/reveal.js#configuration
-		Reveal.initialize({
-			controls: false,
-			progress: true,
-			history: true,
-			center: true,
-
-			// The "normal" size of the presentation, aspect ratio will be preserved
-			// when the presentation is scaled to fit different resolutions. Can be
-			// specified using percentage units.
-			width: 960,
-			height: 700,
-
-			// Factor of the display size that should remain empty around the content
-			margin: 0.06,
-
-			// Bounds for smallest/largest possible scale to apply to content
-			minScale: 0.2,
-			maxScale: 5.0,
-
-			theme: 'pgday', // available themes are in /css/theme
-			transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
-
-			// Parallax scrolling
-			// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-			// parallaxBackgroundSize: '2100px 900px',
-
-			// Optional libraries used to extend on reveal.js
-			dependencies: [         ]
-		});
-
-	</script>
-
+	<div data-sly-include='reveal-init.html' data-sly-unwrap></div>
 </body>
