@@ -32,4 +32,6 @@
                 transTime="1000"/>
         </content-par>
     </jcr:content>
+    <enterprise--not-just-a-dirty-word/>
+    <hello/>
 </jcr:root>
