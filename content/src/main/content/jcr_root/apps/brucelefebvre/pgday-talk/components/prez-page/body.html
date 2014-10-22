@@ -1,10 +1,12 @@
 <body data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
 	<div class='reveal'>
 		<div class='slides'>
-			<section data-sly-include='section.html'>
-			</section>
+			<div data-sly-use.bg="SlideBackground" data-sly-unwrap>
+				<section data-background='${bg.relPathToPageImage}' data-sly-include='section.html'>
+				</section>
+			</div>
 
-			<div data-sly-test='${!wcmmode.edit && !wcmmode.design}' data-sly-list.item='${ currentPage.listChildren }' data-sly-unwrap>
+			<div data-sly-test='${ !wcmmode.edit && !wcmmode.design }' data-sly-list.item='${ currentPage.listChildren }' data-sly-unwrap>
 				<section data-sly-resource="${ item.path @ selectors='section' }">
 					${item}
 				</section>

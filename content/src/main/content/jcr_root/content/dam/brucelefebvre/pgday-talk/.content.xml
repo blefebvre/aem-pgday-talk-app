@@ -7,7 +7,6 @@
     <thumbnail.png/>
     <AEM_logo.png/>
     <biz_cat_fourth_quarter.jpg/>
-    <building.jpg/>
     <content_mgmt.png/>
     <define_enterprise.png/>
     <felix.png/>
@@ -19,4 +18,5 @@
     <oak.png/>
     <pg_logo.png/>
     <sling.png/>
+    <building.png/>
 </jcr:root>
