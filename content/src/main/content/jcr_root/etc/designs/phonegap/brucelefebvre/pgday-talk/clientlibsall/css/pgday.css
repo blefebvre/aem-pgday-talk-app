@@ -146,7 +146,7 @@ body {
 
 /* adobe logo */
 body:after {
-  content: url(../../img/logo.svg);
+  content: url(../img/logo.svg);
   width: 74px;
   height: 126px;
   position: fixed;

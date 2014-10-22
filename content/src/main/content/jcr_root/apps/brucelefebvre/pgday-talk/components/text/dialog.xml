@@ -69,6 +69,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     cssName="fragment"
                                     text="Fragment"/>
+                                <white
+                                    jcr:primaryType="nt:unstructured"
+                                    cssName="white"
+                                    text="White text on gray"/>
                             </styles>
                         </styles>
                     </rtePlugins>

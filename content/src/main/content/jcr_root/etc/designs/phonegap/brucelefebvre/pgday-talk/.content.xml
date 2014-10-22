@@ -14,7 +14,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/parsys"
-                components="[/libs/wcm/foundation/components/title,/libs/mobileapps/components/image,/apps/brucelefebvre/pgday-talk/components/text]">
+                components="[/apps/brucelefebvre/pgday-talk/components/title,/libs/mobileapps/components/image,/apps/brucelefebvre/pgday-talk/components/text,/apps/brucelefebvre/pgday-talk/components/spacer]">
                 <section jcr:primaryType="nt:unstructured"/>
             </content-par>
         </prez-page>
