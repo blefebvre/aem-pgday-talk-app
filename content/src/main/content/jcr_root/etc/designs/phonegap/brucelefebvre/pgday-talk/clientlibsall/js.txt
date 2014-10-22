@@ -1,3 +1,5 @@
 #base=js
 
-initialize-app.js
+head.js
+reveal.js
+zoom.js

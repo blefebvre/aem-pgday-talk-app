@@ -1,5 +1,5 @@
 #base=css
 
-ios7shim.css
-transitions.css
-ionic-custom.css
+reveal.css
+default.css
+pgday.css
