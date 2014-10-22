@@ -13,7 +13,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="pgday-talk"
-        jcr:uuid="2d2c2b38-1293-4813-ad07-b1979238d866"
+        jcr:uuid="51a63e07-b768-4d14-9e57-0aed6c132afe"
         sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
         page-transition="slide-animation"
         phonegap-contentSyncConfigPath="/content/phonegap/brucelefebvre/content/pgday-talk/contentsync">
