@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
+        cq:lastModified="{Date}2014-10-22T17:29:17.135-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="content management is hard"
+        sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
+        data-state="bg-gray"
+        page-transition="slide-animation">
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2014-10-22T17:28:38.012-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-10-22T17:29:00.528-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mobileapps/components/image"
+                fileReference="/content/dam/brucelefebvre/pgday-talk/content_mgmt.png"/>
+        </content-par>
+        <image
+            jcr:lastModified="{Date}2014-10-22T17:29:17.131-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

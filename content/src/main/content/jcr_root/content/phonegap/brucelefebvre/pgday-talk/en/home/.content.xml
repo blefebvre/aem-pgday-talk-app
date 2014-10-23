@@ -4,6 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2014-10-22T15:57:32.556-07:00"
         cq:lastModifiedBy="admin"
+        cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="enterprise: not just a dirty word any more"
         sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
@@ -56,4 +57,12 @@
         </content-par>
     </jcr:content>
     <hello/>
+    <define-enterprise/>
+    <goal--sell-/>
+    <goal--sell-not/>
+    <goals--real/>
+    <agenda/>
+    <content-management-is-hard/>
+    <aem/>
+    <customers/>
 </jcr:root>

@@ -160,8 +160,17 @@ body:after {
 }
 */
 
-.reveal .left{
+.reveal .left,
+.reveal p {
 	text-align: left;
+}
+
+.reveal div.image {
+    text-align: center;
+}
+
+.reveal div.image img {
+    display: inline;
 }
 
 .reveal .box {
@@ -174,7 +183,8 @@ body:after {
 }
 
 .reveal section ol, 
-.reveal section ul {
+.reveal section ul, 
+.reveal section p {
 	font-size: 130%;
 	line-height: 130%;
 }
@@ -204,4 +214,8 @@ body:after {
 
 .reveal a:not(.image) {
 	text-decoration: underline;
+}
+
+.reveal .strikethrough {
+    text-decoration: line-through;
 }

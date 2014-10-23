@@ -3,11 +3,11 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
-        cq:lastModified="{Date}2014-10-22T16:55:43.986-07:00"
+        cq:lastModified="{Date}2014-10-22T17:20:51.533-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Hello"
+        jcr:title="goal: sell! (not)"
         sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
         data-state="bg-gray"
         page-transition="slide-animation">
@@ -15,22 +15,22 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
             <title
-                jcr:created="{Date}2014-10-22T15:31:44.028-07:00"
+                jcr:created="{Date}2014-10-22T17:15:35.565-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-22T16:55:43.981-07:00"
+                jcr:lastModified="{Date}2014-10-22T17:15:50.503-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Hello"
+                jcr:title="Goal"
                 sling:resourceType="brucelefebvre/pgday-talk/components/title"
-                type="h3"/>
+                type="h2"/>
             <text
-                jcr:created="{Date}2014-10-22T15:31:58.929-07:00"
+                jcr:created="{Date}2014-10-22T17:15:53.793-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-22T15:32:47.663-07:00"
+                jcr:lastModified="{Date}2014-10-22T17:20:51.530-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="brucelefebvre/pgday-talk/components/text"
-                text="&lt;p>&lt;a adhocenable=&quot;false&quot; href=&quot;https://twitter.com/brucelefebvre&quot; target=&quot;_blank&quot;>@brucelefebvre&lt;/a>&lt;/p>&#xa;"
+                text="&lt;p>• &lt;span class=&quot;strikethrough&quot;>Sell you PhoneGap Enterprise!!1&lt;/span>&lt;/p>&#xa;"
                 textIsRich="true"/>
         </content-par>
     </jcr:content>
