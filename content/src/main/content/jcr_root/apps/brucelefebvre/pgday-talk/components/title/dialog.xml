@@ -53,6 +53,10 @@
                     jcr:primaryType="nt:unstructured"
                     text="White text on gray"
                     value="white"/>
+                <blue
+                    jcr:primaryType="nt:unstructured"
+                    text="Blue text"
+                    value="blue"/>
             </options>
         </style>
     </items>

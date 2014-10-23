@@ -219,3 +219,7 @@ body:after {
 .reveal .strikethrough {
     text-decoration: line-through;
 }
+
+.reveal .blue {
+    color: blue;
+}
