@@ -3,3 +3,6 @@
 head.js
 reveal.js
 zoom.js
+
+shake-update.js
+shake-update-init.js

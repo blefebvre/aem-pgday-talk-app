@@ -52,5 +52,10 @@
 "plugins/org.apache.cordova.network-information/www/network.js",
 "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
 "plugins/org.apache.cordova.device-motion/www/Acceleration.js",
-"plugins/org.apache.cordova.device-motion/www/accelerometer.js"
+"plugins/org.apache.cordova.device-motion/www/accelerometer.js",
+"plugins/org.apache.cordova.console/www/console-via-logger.js",
+"plugins/org.apache.cordova.console/www/logger.js",
+"plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
+"plugins/org.apache.cordova.dialogs/www/notification.js",
+"plugins/org.apache.cordova.dialogs/www/android/notification.js"
 ]

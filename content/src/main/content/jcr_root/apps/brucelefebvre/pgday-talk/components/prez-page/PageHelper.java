@@ -5,7 +5,7 @@ import com.adobe.cq.mobile.angular.data.util.FrameworkContentExporterUtils;
 import org.apache.sling.api.resource.Resource;
 import com.day.cq.wcm.api.Page;
   
-public class SlideBackground extends WCMUse {
+public class PageHelper extends WCMUse {
 
     Resource topLevelAppResource;
     boolean appExport;
@@ -30,5 +30,9 @@ public class SlideBackground extends WCMUse {
         }
 
         return null;
+    }
+
+    public String getRelativePathToRoot() {
+        return FrameworkContentExporterUtils.getRelativePathToRootLevel(page.adaptTo(Resource.class));
     }
 }
