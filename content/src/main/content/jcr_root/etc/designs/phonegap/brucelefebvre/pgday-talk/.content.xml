@@ -14,7 +14,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/parsys"
-                components="[/apps/brucelefebvre/pgday-talk/components/title,/libs/mobileapps/components/image,/apps/brucelefebvre/pgday-talk/components/text,/apps/brucelefebvre/pgday-talk/components/spacer]">
+                components="[/apps/brucelefebvre/pgday-talk/components/title,/libs/mobileapps/components/image,/apps/brucelefebvre/pgday-talk/components/text,/apps/brucelefebvre/pgday-talk/components/spacer,/apps/brucelefebvre/pgday-talk/components/four-image-row,/apps/brucelefebvre/pgday-talk/components/spacer2,/apps/brucelefebvre/pgday-talk/components/two-images-plus]">
                 <section jcr:primaryType="nt:unstructured"/>
             </content-par>
         </prez-page>

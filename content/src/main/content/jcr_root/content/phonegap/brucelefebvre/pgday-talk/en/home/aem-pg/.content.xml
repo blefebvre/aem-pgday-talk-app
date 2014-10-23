@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
+        cq:lastModified="{Date}2014-10-23T01:25:40.729-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AEM+PG"
+        sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
+        page-transition="slide-animation">
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <two_images_plus
+                jcr:created="{Date}2014-10-23T01:17:49.871-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-10-23T01:17:49.871-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="brucelefebvre/pgday-talk/components/two-images-plus">
+                <content-par jcr:primaryType="nt:unstructured">
+                    <four-image-row1
+                        jcr:lastModified="{Date}2014-10-23T01:23:18.990-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mobileapps/components/image"
+                        fileReference="/content/dam/brucelefebvre/pgday-talk/AEM_logo.png"
+                        imageRotate="0"/>
+                    <four-image-row2
+                        jcr:lastModified="{Date}2014-10-23T01:23:26.926-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mobileapps/components/image"
+                        fileReference="/content/dam/brucelefebvre/pgday-talk/pg_logo.png"
+                        imageRotate="0"/>
+                </content-par>
+            </two_images_plus>
+            <title
+                jcr:created="{Date}2014-10-23T01:25:14.153-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-10-23T01:25:40.725-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="PhoneGap Enterprise"
+                sling:resourceType="brucelefebvre/pgday-talk/components/title"
+                type="h3"/>
+        </content-par>
+    </jcr:content>
+</jcr:root>

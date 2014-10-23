@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
+        cq:lastModified="{Date}2014-10-23T01:27:33.504-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AEM+PG highlights"
+        sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
+        page-transition="slide-animation">
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2014-10-23T01:26:32.004-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-10-23T01:26:38.339-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Highlights"
+                sling:resourceType="brucelefebvre/pgday-talk/components/title"
+                type="h2"/>
+            <text
+                jcr:created="{Date}2014-10-23T01:26:40.263-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-10-23T01:27:33.500-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="brucelefebvre/pgday-talk/components/text"
+                text="&lt;p>• Content authoring by non-technical users&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• AEM Apps command center&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Over-the-air content updates&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• PhoneGap build integration&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Instrumented for Mobile Services analytics&lt;/span>&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </content-par>
+    </jcr:content>
+</jcr:root>

@@ -223,3 +223,26 @@ body:after {
 .reveal .blue {
     color: blue;
 }
+
+table.four-image-row td {
+    width: 25%;
+    text-align: center;
+}
+
+table.four-image-row img {
+	vertical-align: middle;
+    border: none;
+}
+
+table.two-images-plus {
+    margin: 0 auto;
+}
+
+table.two-images-plus td {
+	vertical-align: middle;
+}
+
+table.two-images-plus img {
+	max-width: 200px;
+    border: none;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
+        cq:lastModified="{Date}2014-10-23T01:28:25.778-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AMS flow"
+        sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
+        data-background-size="contain"
+        page-transition="slide-animation">
+        <image
+            jcr:lastModified="{Date}2014-10-23T01:28:25.774-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/brucelefebvre/pgday-talk/mobile-services-2.png"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

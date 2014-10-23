@@ -2,67 +2,60 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2014-10-22T17:42:59.360-07:00"
+        cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
+        cq:lastModified="{Date}2014-10-23T01:36:14.216-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="enterprise: not just a dirty word any more"
+        jcr:title="thanks"
         sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
         page-transition="slide-animation">
-        <image
-            jcr:lastModified="{Date}2014-10-22T14:34:25.811-07:00"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            fileReference="/content/dam/brucelefebvre/pgday-talk/building.png"
-            imageRotate="0"/>
         <content-par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
             <title
-                jcr:created="{Date}2014-10-22T15:00:22.148-07:00"
+                jcr:created="{Date}2014-10-23T01:34:41.514-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-22T15:06:15.434-07:00"
+                jcr:lastModified="{Date}2014-10-23T01:35:00.001-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="ENTERPRISE"
+                jcr:title="Thanks!"
                 sling:resourceType="brucelefebvre/pgday-talk/components/title"
                 style="white"
                 type="h1"/>
             <title_0
-                jcr:created="{Date}2014-10-22T15:06:52.953-07:00"
+                jcr:created="{Date}2014-10-23T01:35:03.416-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-22T15:07:22.063-07:00"
+                jcr:lastModified="{Date}2014-10-23T01:35:33.471-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Not just a dirty word any more"
+                jcr:title="Questions?"
                 sling:resourceType="brucelefebvre/pgday-talk/components/title"
                 style="white"
                 type="h3"/>
             <spacer
-                jcr:created="{Date}2014-10-22T15:14:19.510-07:00"
+                jcr:created="{Date}2014-10-23T01:35:41.311-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-22T15:14:19.510-07:00"
+                jcr:lastModified="{Date}2014-10-23T01:35:41.311-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="brucelefebvre/pgday-talk/components/spacer"/>
+            <title_1
+                jcr:created="{Date}2014-10-23T01:35:38.254-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-10-23T01:36:06.433-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="@brucelefebvre"
+                sling:resourceType="brucelefebvre/pgday-talk/components/title"
+                style="white"
+                type="h4"/>
         </content-par>
+        <image
+            jcr:lastModified="{Date}2014-10-23T01:36:14.213-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/brucelefebvre/pgday-talk/building.png"
+            imageRotate="0"/>
     </jcr:content>
-    <hello/>
-    <define-enterprise/>
-    <goal--sell-/>
-    <goal--sell-not/>
-    <goals--real/>
-    <agenda/>
-    <content-management-is-hard/>
-    <aem/>
-    <customers/>
-    <aem-at-a-glance/>
-    <open-foundation/>
-    <aem-pg/>
-    <aem-pg-highlights/>
-    <ams-flow/>
-    <demo-time/>
-    <tech-resources/>
-    <thanks/>
-    <creative-resources/>
 </jcr:root>
