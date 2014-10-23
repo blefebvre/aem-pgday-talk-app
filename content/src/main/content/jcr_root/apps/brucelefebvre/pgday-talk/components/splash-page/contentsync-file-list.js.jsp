@@ -50,5 +50,7 @@
 "plugins/org.apache.cordova.camera/www/CameraPopoverOptions.js",
 "plugins/org.apache.cordova.network-information/www/Connection.js",
 "plugins/org.apache.cordova.network-information/www/network.js",
-"plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js"
+"plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
+"plugins/org.apache.cordova.device-motion/www/Acceleration.js",
+"plugins/org.apache.cordova.device-motion/www/accelerometer.js"
 ]
