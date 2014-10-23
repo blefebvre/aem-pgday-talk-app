@@ -73,6 +73,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     cssName="white"
                                     text="White text on gray"/>
+                                <strike
+                                    jcr:primaryType="nt:unstructured"
+                                    cssName="strikethrough"
+                                    text="Strikethrough"/>
                             </styles>
                         </styles>
                     </rtePlugins>
