@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Panel"
+    title="Basic">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <basic
+            jcr:primaryType="cq:Widget"
+            collapsed="{Boolean}false"
+            collapsible="{Boolean}false"
+            xtype="dialogfieldset">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title YO!"
+                    name="./jcr:title"
+                    xtype="textfield"/>
+                <tags
+                    jcr:primaryType="cq:Widget"
+                    cls="cq-propsdialog-tags"
+                    fieldLabel="Tags/Keywords"
+                    name="./cq:tags"
+                    xtype="tags"/>
+                <hideinnav
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Hide in Navigation"
+                    inputValue="true"
+                    name="./hideInNav"
+                    type="checkbox"
+                    xtype="selection"/>
+            </items>
+        </basic>
+        <more_titles
+            jcr:primaryType="cq:Widget"
+            collapsed="{Boolean}true"
+            collapsible="{Boolean}true"
+            title="More Titles and Description"
+            xtype="dialogfieldset">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <pagetitle
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Page Title"
+                    name="./pageTitle"
+                    xtype="textfield"/>
+                <navtitle
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Navigation Title"
+                    name="./navTitle"
+                    xtype="textfield"/>
+                <subtitle
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Subtitle"
+                    name="./subtitle"
+                    xtype="textfield"/>
+                <description
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Description"
+                    name="./jcr:description"
+                    xtype="textarea"/>
+            </items>
+        </more_titles>
+        <background
+            jcr:primaryType="cq:Widget"
+            collapsed="{Boolean}false"
+            collapsible="{Boolean}false"
+            title="Slide Background"
+            xtype="dialogfieldset">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <state
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="State"
+                    name="./data-state"
+                    xtype="textfield"/>
+                <position
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Position"
+                    name="./data-background-position"
+                    xtype="textfield"/>
+                <size
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Size"
+                    name="./data-background-size"
+                    xtype="textfield"/>
+            </items>
+        </background>
+    </items>
+</jcr:root>

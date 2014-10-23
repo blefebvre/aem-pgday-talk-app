@@ -1,16 +1,16 @@
 <body data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
 	<div class='reveal'>
 		<div class='slides'>
-			<div data-sly-use.bg="SlideBackground" data-sly-unwrap>
-				<section data-background='${bg.relPathToPageImage}' data-sly-include='section.html'>
-				</section>
+
+			<div data-sly-call="${ section @ slidePage=currentPage }" data-sly-unwrap></div>
+
+			<div data-sly-test='${ !wcmmode.edit && !wcmmode.design }' 
+    				data-sly-list.item='${ currentPage.listChildren }' data-sly-unwrap>
+
+    			<div data-sly-call="${ section @ slidePage=item }" data-sly-unwrap></div>
+
 			</div>
 
-			<div data-sly-test='${ !wcmmode.edit && !wcmmode.design }' data-sly-list.item='${ currentPage.listChildren }' data-sly-unwrap>
-				<section data-sly-resource="${ item.path @ selectors='section' }">
-					${item}
-				</section>
-			</div>
 		</div>
 	</div>
 
@@ -18,3 +18,14 @@
 
 	<div data-sly-include='reveal-init.html' data-sly-unwrap></div>
 </body>
+
+<template data-sly-template.section="${ @ slidePage }">
+			<div data-sly-use.bg="${ 'SlideBackground' @ page=slidePage}" data-sly-unwrap>
+				<section data-background='${ bg.relPathToPageImage }'
+    					data-state='${ slidePage.properties["data-state"] }'
+    					data-background-position='${ slidePage.properties["data-background-position"] }'
+    					data-background-size='${ slidePage.properties["data-background-size"] }'>
+                    <div data-sly-resource="${ slidePage.path @ selectors='section' }" data-sly-unwrap></div>
+				</section>
+			</div>
+</template>
