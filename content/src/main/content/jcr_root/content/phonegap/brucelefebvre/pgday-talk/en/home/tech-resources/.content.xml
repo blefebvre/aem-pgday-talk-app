@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
-        cq:lastModified="{Date}2014-10-23T01:33:52.398-07:00"
+        cq:lastModified="{Date}2014-10-24T03:10:48.951-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
@@ -25,11 +25,11 @@
             <text
                 jcr:created="{Date}2014-10-23T01:32:33.384-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-23T01:33:52.394-07:00"
+                jcr:lastModified="{Date}2014-10-24T03:10:48.947-04:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="brucelefebvre/pgday-talk/components/text"
-                text="&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;https://github.com/blefebvre/aem-phonegap-kitchen-sink&quot; target=&quot;_blank&quot;>AEM PhoneGap Kitchen Sink&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;https://github.com/blefebvre/aem-phonegap-starter-kit&quot;>AEM PhoneGap Starter Kit&lt;/a>&lt;/p>&#xa;"
+                text="&lt;p>•&amp;nbsp;&lt;a adhocenable=&quot;false&quot; href=&quot;https://github.com/blefebvre/aem-pgday-talk-app&quot;>PhoneGap Day - Enterprise talk app&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;https://github.com/blefebvre/aem-phonegap-kitchen-sink&quot; target=&quot;_blank&quot;>AEM PhoneGap Kitchen Sink&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;https://github.com/blefebvre/aem-phonegap-starter-kit&quot;>AEM PhoneGap Starter Kit&lt;/a>&lt;/p>&#xa;&lt;p>•&amp;nbsp;&lt;a href=&quot;http://docs.adobe.com/docs/jp/aem/6-0/develop/mobile/apps.html&quot;>Developing PhoneGap Apps in AEM&lt;/a>&lt;/p>"
                 textIsRich="true"/>
         </content-par>
     </jcr:content>

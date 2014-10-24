@@ -171,6 +171,7 @@ body:after {
 
 .reveal div.image img {
     display: inline;
+    border: none;
 }
 
 .reveal .box {
