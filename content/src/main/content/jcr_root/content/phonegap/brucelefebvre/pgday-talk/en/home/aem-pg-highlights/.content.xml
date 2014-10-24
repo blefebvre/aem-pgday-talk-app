@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
-        cq:lastModified="{Date}2014-10-23T01:27:33.504-07:00"
+        cq:lastModified="{Date}2014-10-23T16:56:50.975-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
@@ -25,11 +25,11 @@
             <text
                 jcr:created="{Date}2014-10-23T01:26:40.263-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-23T01:27:33.500-07:00"
+                jcr:lastModified="{Date}2014-10-23T16:56:50.972-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="brucelefebvre/pgday-talk/components/text"
-                text="&lt;p>• Content authoring by non-technical users&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• AEM Apps command center&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Over-the-air content updates&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• PhoneGap build integration&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Instrumented for Mobile Services analytics&lt;/span>&lt;/p>&#xa;"
+                text="&lt;p>• Content authoring by non-technical users&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• AEM Apps command center&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Over-the-air content updates&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• PhoneGap Build integration&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Instrumented for Adobe Mobile Services&lt;/span>&lt;/p>&#xa;"
                 textIsRich="true"/>
         </content-par>
     </jcr:content>

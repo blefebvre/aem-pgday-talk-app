@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
-        cq:lastModified="{Date}2014-10-22T17:11:05.153-07:00"
+        cq:lastModified="{Date}2014-10-23T17:50:30.624-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
@@ -12,23 +12,31 @@
         data-background-position="0px 0px"
         page-transition="slide-animation">
         <image
-            jcr:lastModified="{Date}2014-10-22T17:09:03.763-07:00"
+            jcr:lastModified="{Date}2014-10-23T16:45:35.053-07:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            fileReference="/content/dam/brucelefebvre/pgday-talk/define_enterprise.png"
             imageRotate="0"/>
         <content-par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
-            <text
-                jcr:created="{Date}2014-10-22T17:09:12.697-07:00"
+            <image
+                jcr:created="{Date}2014-10-23T17:49:32.631-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-22T17:11:05.148-07:00"
+                jcr:lastModified="{Date}2014-10-23T17:50:10.876-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="brucelefebvre/pgday-talk/components/text"
-                text="&lt;p>&lt;span class=&quot;fragment&quot;>en·ter·prise&lt;br>&#xa; ˈen(t)ərˌprīz/&lt;/span>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>1. a project or undertaking, typically one that is difficult or requires effort.&lt;/span>&lt;/p>&#xa;"
-                textIsRich="true"/>
+                sling:resourceType="mobileapps/components/image"
+                fileReference="/content/dam/brucelefebvre/pgday-talk/Christmas-Present-red.jpg"
+                width="200"/>
+            <title
+                jcr:created="{Date}2014-10-23T17:50:30.621-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-10-23T17:50:30.621-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Once upon a time..."
+                sling:resourceType="brucelefebvre/pgday-talk/components/title"
+                type="h3"/>
         </content-par>
     </jcr:content>
 </jcr:root>
