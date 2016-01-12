@@ -7,10 +7,10 @@
 
     <groupId>com.brucelefebvre</groupId>
     <artifactId>pgday-talk</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>pgday-talk - Reactor Project</name>
+    <name>pgday-talk - Reactor</name>
     <description>Maven Multimodule project for pgday-talk.</description>
 
     <prerequisites>
@@ -256,6 +256,7 @@
         </profile>
     </profiles>
   <modules>
+    <module>bundle</module>
     <module>content</module>
   </modules>
 </project>

@@ -1,4 +1,4 @@
-package apps.brucelefebvre.pgday_talk.components.prez_page;
+package com.brucelefebvre.pgday;
   
 import com.adobe.cq.sightly.WCMUse;
 import com.adobe.cq.mobile.angular.data.util.FrameworkContentExporterUtils;

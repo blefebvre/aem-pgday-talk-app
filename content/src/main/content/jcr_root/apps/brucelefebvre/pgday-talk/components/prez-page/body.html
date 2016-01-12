@@ -14,7 +14,7 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" data-sly-use.scriptph="${ 'PageHelper' @ page=currentPage}" src="${scriptph.relativePathToRoot}cordova.js"></script>
+	<script type="text/javascript" data-sly-use.scriptph="${ 'com.brucelefebvre.pgday.PageHelper' @ page=currentPage}" src="${scriptph.relativePathToRoot}cordova.js"></script>
 	<meta data-sly-call="${clientLib.angular @ categories='angularjs'}" data-sly-unwrap></meta>
 	<meta data-sly-call="${clientLib.all @ categories='apps.brucelefebvre.pgday-talk.all'}" data-sly-unwrap></meta>
 
@@ -22,7 +22,7 @@
 </body>
 
 <template data-sly-template.section="${ @ slidePage }">
-			<div data-sly-use.ph="${ 'PageHelper' @ page=slidePage}" data-sly-unwrap>
+			<div data-sly-use.ph="${ 'com.brucelefebvre.pgday.PageHelper' @ page=slidePage}" data-sly-unwrap>
 				<section 
 						data-background='${ ph.relPathToPageImage }'
     					data-state='${ slidePage.properties["data-state"] }'
