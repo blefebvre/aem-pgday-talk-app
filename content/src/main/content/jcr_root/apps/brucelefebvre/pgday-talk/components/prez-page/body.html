@@ -1,4 +1,4 @@
-<body data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
 	<div class='reveal'>
 		<div class='slides'>
 
@@ -18,8 +18,11 @@
 	<meta data-sly-call="${clientLib.angular @ categories='angularjs'}" data-sly-unwrap></meta>
 	<meta data-sly-call="${clientLib.all @ categories='apps.brucelefebvre.pgday-talk.all'}" data-sly-unwrap></meta>
 
+    <div data-sly-resource="${'clientcontext' @ resourceType='cq/personalization/components/clientcontext_optimized'}"></div>
+	<div data-sly-resource="${'cloudservices' @ resourceType='cq/cloudserviceconfigs/components/servicecomponents'}" data-sly-unwrap></div>
+
 	<div data-sly-include='reveal-init.html' data-sly-unwrap></div>
-</body>
+</sly>
 
 <template data-sly-template.section="${ @ slidePage }">
 			<div data-sly-use.ph="${ 'com.brucelefebvre.pgday.PageHelper' @ page=slidePage}" data-sly-unwrap>
