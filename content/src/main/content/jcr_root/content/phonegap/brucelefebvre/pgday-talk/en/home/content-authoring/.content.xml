@@ -3,34 +3,38 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
-        cq:lastModified="{Date}2016-01-18T14:07:24.408-05:00"
+        cq:lastModified="{Date}2016-01-18T16:52:21.650-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="AEM at a glance"
+        jcr:title="App Management"
         sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
         page-transition="slide-animation">
         <content-par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
             <title
-                jcr:created="{Date}2014-10-23T00:35:58.491-07:00"
+                jcr:created="{Date}2016-01-18T16:35:57.559-05:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-01-18T14:05:58.670-05:00"
+                jcr:lastModified="{Date}2016-01-18T16:52:21.647-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Experience Manager"
+                jcr:title="Analytics via Adobe Mobile Services"
                 sling:resourceType="brucelefebvre/pgday-talk/components/title"
-                type="h2"/>
-            <text
-                jcr:created="{Date}2014-10-23T00:38:37.070-07:00"
+                type="h4"/>
+            <image
+                jcr:created="{Date}2016-01-18T16:38:16.509-05:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-01-18T14:07:24.405-05:00"
+                jcr:lastModified="{Date}2016-01-18T16:51:37.299-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="brucelefebvre/pgday-talk/components/text"
-                text="&lt;p>• Create, manage, and optimize digital experiences&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Double click install&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Touch friendly UI&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Templates developed in JSP, ESP, or Sightly&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Built on an open foundation&lt;/span>&lt;/p>&#xa;"
-                textIsRich="true"/>
+                sling:resourceType="mobileapps/components/image"
+                fileReference="/content/dam/brucelefebvre/pgday-talk/mobile-services-2.png"/>
         </content-par>
+        <image
+            jcr:lastModified="{Date}2016-01-18T16:39:40.194-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
     </jcr:content>
 </jcr:root>
