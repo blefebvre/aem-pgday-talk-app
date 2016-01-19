@@ -9,14 +9,14 @@
         jcr:title="pgday-talk Shell"
         sling:resourceType="brucelefebvre/pgday-talk/components/splash-page"
         pge-type="[app-instance]"
-        phonegap-build-exportTemplate="/content/phonegap/brucelefebvre/pgday-talk/shell/jcr:content/pge-app/pgday-talk"
-        phonegap-build-exportTemplate-dev="/content/phonegap/brucelefebvre/pgday-talk/shell/jcr:content/pge-app/pgday-talk-dev"
-        phonegap-exportTemplate="/content/phonegap/brucelefebvre/pgday-talk/shell/jcr:content/pge-app/app-config"
+        phonegap-build-exportTemplate="/content/phonegap/pgday-talk/shell/jcr:content/pge-app/pgday-talk"
+        phonegap-build-exportTemplate-dev="/content/phonegap/pgday-talk/shell/jcr:content/pge-app/pgday-talk-dev"
+        phonegap-exportTemplate="/content/phonegap/pgday-talk/shell/jcr:content/pge-app/app-config"
         platforms="[ios,android,winphone]"
         plugins="{Binary}"
         screenshots="[]"
         serverURL="http://localhost:4503/"
-        widgetConfigPath="/content/phonegap/brucelefebvre/pgday-talk/shell/jcr:content/pge-app/app-content/phonegap/www/config.xml">
+        widgetConfigPath="/content/phonegap/pgday-talk/shell/jcr:content/pge-app/app-content/phonegap/www/config.xml">
         <image
             jcr:lastModified="{Date}2014-09-04T16:49:51.263-04:00"
             jcr:lastModifiedBy="admin"

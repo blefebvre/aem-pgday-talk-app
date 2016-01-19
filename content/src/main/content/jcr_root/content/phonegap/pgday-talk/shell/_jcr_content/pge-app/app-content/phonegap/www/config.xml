@@ -11,7 +11,7 @@
     
     <preference name="phonegap-version" value="3.5.0" />
 
-    <content src="content/phonegap/brucelefebvre/pgday-talk/en.html" />
+    <content src="content/phonegap/pgday-talk/en.html" />
 
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
