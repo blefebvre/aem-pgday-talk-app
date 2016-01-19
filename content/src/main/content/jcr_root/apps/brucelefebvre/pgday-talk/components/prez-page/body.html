@@ -1,4 +1,7 @@
 <sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+	<div data-sly-test="${!wcmmode.disabled}">
+        <div data-sly-resource="${'clientcontext' @ resourceType='cq/personalization/components/clientcontext_optimized'}" data-sly-unwrap></div>
+    </div>
 	<div class='reveal'>
 		<div class='slides'>
 
@@ -14,12 +17,16 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" data-sly-use.scriptph="${ 'com.brucelefebvre.pgday.PageHelper' @ page=currentPage}" src="${scriptph.relativePathToRoot}cordova.js"></script>
 	<meta data-sly-call="${clientLib.angular @ categories='angularjs'}" data-sly-unwrap></meta>
 	<meta data-sly-call="${clientLib.all @ categories='apps.brucelefebvre.pgday-talk.all'}" data-sly-unwrap></meta>
 
-    <div data-sly-resource="${'clientcontext' @ resourceType='cq/personalization/components/clientcontext_optimized'}"></div>
-	<div data-sly-resource="${'cloudservices' @ resourceType='cq/cloudserviceconfigs/components/servicecomponents'}" data-sly-unwrap></div>
+	<sly data-sly-test="${wcmmode.disabled}">
+		<script type="text/javascript" data-sly-use.scriptph="${ 'com.brucelefebvre.pgday.PageHelper' @ page=currentPage}" src="${scriptph.relativePathToRoot}cordova.js"></script>
+    </sly>
+
+	<sly data-sly-test="${!wcmmode.disabled}">
+        <div data-sly-resource="${'cloudservices' @ resourceType='cq/cloudserviceconfigs/components/servicecomponents'}" data-sly-unwrap></div>
+    </sly>
 
 	<div data-sly-include='reveal-init.html' data-sly-unwrap></div>
 </sly>

@@ -3,6 +3,8 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2014-01-06T16:29:05.241-05:00"
+        cq:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
         jcr:title="pgday-talk"
         sling:resourceType="mobileapps/core/components/group"/>
