@@ -6,3 +6,4 @@ zoom.js
 
 shake-update.js
 shake-update-init.js
+pgday-target.js

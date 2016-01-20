@@ -1,16 +1,16 @@
 	<fieldset>
         <label> 
-            <input type="radio" name="gender" value="anon" checked="checked" onchange="alert('gender: ' + this.value);"> 
+            <input type="radio" name="gender" value="anon" checked="checked" onchange="pgday.targetGender(this.value);"> 
             Anonymous
         </label>
         &nbsp;&nbsp;&nbsp;
         <label> 
-            <input type="radio" name="gender" value="male" onchange="alert('gender: ' + this.value);"> 
+            <input type="radio" name="gender" value="male" onchange="pgday.targetGender(this.value);"> 
             Male
         </label>
         &nbsp;&nbsp;&nbsp;
         <label>
-            <input type="radio" name="gender" value="female" onchange="alert('gender: ' + this.value);"> 
+            <input type="radio" name="gender" value="female" onchange="pgday.targetGender(this.value);"> 
             Female
         </label>
     </fieldset>
