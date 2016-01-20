@@ -257,3 +257,17 @@ table.two-images-plus img {
     width: 3em;
     height: 3em;
 }
+
+.three-image-row {
+	width: 100%;
+}
+
+.three-image-row td {
+    width: 32%;
+    text-align: center;
+}
+
+.reveal section .three-image-row img {
+    vertical-align: middle;
+    border: none;
+}
