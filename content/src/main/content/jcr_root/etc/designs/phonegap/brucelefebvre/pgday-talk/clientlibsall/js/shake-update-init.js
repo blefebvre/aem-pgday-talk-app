@@ -1,5 +1,5 @@
 var initShakeUpdate = function() {
-	var contentUpdater = CQ.mobile.contentUpdate();
+	var contentUpdater = CQ.mobile.contentUpdate({id: 'AEMAngularApp'});
 
 	var deviceShakeDetected = function() {
 		shake.stopWatch();
