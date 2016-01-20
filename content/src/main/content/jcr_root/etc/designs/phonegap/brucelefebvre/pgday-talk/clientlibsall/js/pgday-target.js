@@ -9,7 +9,7 @@ pgday.targetGender = function(gender) {
         var mboxId = targetedEl.dataset.mboxid;
         console.log('Fetching targeted content for: [' + targetedEl + '], mboxid: [' + mboxId + '], with gender: [' + gender + '].');
 
-        var target = new cq.mobileapps.targeting.Target(mboxId, targetedEl, {});
+        var target = new cq.mobileapps.targeting.Target(mboxId, targetedEl);
 
         target.targetLoadRequest(
             {
