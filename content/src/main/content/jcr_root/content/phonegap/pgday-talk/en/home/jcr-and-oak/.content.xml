@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
-        cq:lastModified="{Date}2016-01-18T14:18:36.939-05:00"
+        cq:lastModified="{Date}2016-01-20T22:51:49.250-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
@@ -25,11 +25,11 @@
             <text
                 jcr:created="{Date}2016-01-18T14:10:03.977-05:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-01-18T14:18:36.936-05:00"
+                jcr:lastModified="{Date}2016-01-20T22:51:49.248-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="brucelefebvre/pgday-talk/components/text"
-                text="&lt;p>•&amp;nbsp;Hierarchical data persistance&lt;/p>&#xa;&lt;p>• Standards compliant -&amp;nbsp;&lt;a href=&quot;http://www.day.com/specs/jcr/2.0/index.html&quot; target=&quot;_blank&quot;>JSR-283&lt;/a>&lt;/p>&#xa;&lt;p>• Fast and scalable&lt;/p>&#xa;"
+                text="&lt;p>•&amp;nbsp;Hierarchical data persistance&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Standards compliant -&amp;nbsp;&lt;a href=&quot;http://www.day.com/specs/jcr/2.0/index.html&quot; target=&quot;_blank&quot;>JSR-283&lt;/a>&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Fast and scalable&lt;/span>&lt;/p>&#xa;"
                 textIsRich="true"/>
         </content-par>
     </jcr:content>

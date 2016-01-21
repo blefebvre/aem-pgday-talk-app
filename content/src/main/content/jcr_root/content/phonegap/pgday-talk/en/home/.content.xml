@@ -58,11 +58,14 @@
     <jcr-and-oak/>
     <aem-pg/>
     <aem-pg-highlights/>
+    <coke-app/>
+    <wwsc/>
+    <pgday/>
     <app-management/>
-    <content-authoring/>
+    <analytics/>
+    <content-sync/>
     <demo-time/>
     <tech-resources/>
     <thanks/>
     <creative-resources/>
-    <coke-app/>
 </jcr:root>
