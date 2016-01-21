@@ -37,7 +37,8 @@
 						data-background='${ ph.relPathToPageImage }'
     					data-state='${ slidePage.properties["data-state"] }'
     					data-background-position='${ slidePage.properties["data-background-position"] }'
-    					data-background-size='${ slidePage.properties["data-background-size"] }'>
+    					data-background-size='${ slidePage.properties["data-background-size"] }'
+                        data-slide-title='${ slidePage.title }'>
                     <div data-sly-resource="${ slidePage.path @ selectors='section' }" data-sly-unwrap></div>
 				</section>
 			</div>

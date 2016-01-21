@@ -32,4 +32,15 @@
 		dependencies: [         ]
 	});
 
+    Reveal.addEventListener( 'slidechanged', function( event ) {
+    	// Fire analytics event for each slide change
+        var currentSlideTitle = event.currentSlide.dataset.slideTitle;
+        
+        console.log('Slide changed to: [' + currentSlideTitle + ']');
+
+       	if (window.ADB) {
+            ADB.trackState(currentSlideTitle, {});
+        }
+    } );
+
 </script>
