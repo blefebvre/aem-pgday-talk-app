@@ -2,15 +2,20 @@
 
 ### Requirements
 
-- AEM 6.0.1 + Apps featurepack
-- [node.js](http://nodejs.org/) version `>=0.10.x`
-- [PhoneGap CLI](https://github.com/phonegap/phonegap-cli) version `>=3.4.*`
-- (iOS only) Xcode version `>=5.1.*`
+- AEM 6.1 + Apps featurepack 3
+- [node.js](http://nodejs.org/) version `>=0.12.x`
+- [Cordova CLI](https://github.com/apache/cordova-cli) version `==5.4.*`
+- (iOS only) Xcode version `==7.2`
 - (Android only) [Apache Ant](http://ant.apache.org/bindownload.cgi)
 - (Android only) [Android SDK](https://developer.android.com/sdk/index.html)
 
 
-### Install
+### Install assets
+
+Using [package manager](http://localhost:4502/crx/packmgr), upload and install the package located in the `assets` directory.
+
+
+### Install code and content
 
 This project is based on the [multimodule-content-package-archetype](http://dev.day.com/content/docs/en/aem/6-0/develop/how-tos/vlt-mavenplugin.html#multimodule-content-package-archetype), so it contains the same helpful profiles and properties to build and deploy your project with maven.
 

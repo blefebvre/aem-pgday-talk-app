@@ -5,5 +5,4 @@
     <filter root="/etc/clientlibs/brucelefebvre/ionic"/>
     <filter root="/etc/clientlibs/brucelefebvre/angular-snap"/>
     <filter root="/etc/designs/phonegap/brucelefebvre/pgday-talk"/>
-    <filter root="/content/dam/brucelefebvre/pgday-talk"/>
 </workspaceFilter>
