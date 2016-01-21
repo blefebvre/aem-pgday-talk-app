@@ -7,7 +7,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="tech resources"
+        jcr:title="Tech resources"
         sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
         page-transition="slide-animation">
         <content-par

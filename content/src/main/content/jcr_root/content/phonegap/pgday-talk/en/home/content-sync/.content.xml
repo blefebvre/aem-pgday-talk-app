@@ -3,11 +3,11 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
-        cq:lastModified="{Date}2016-01-18T14:24:27.575-05:00"
+        cq:lastModified="{Date}2016-01-20T23:32:27.167-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="AEM+PG highlights"
+        jcr:title="Content Sync"
         sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
         page-transition="slide-animation">
         <content-par
@@ -16,20 +16,20 @@
             <title
                 jcr:created="{Date}2014-10-23T01:26:32.004-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-23T01:26:38.339-07:00"
+                jcr:lastModified="{Date}2016-01-20T23:28:12.656-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Highlights"
+                jcr:title="Content Sync"
                 sling:resourceType="brucelefebvre/pgday-talk/components/title"
                 type="h2"/>
             <text
                 jcr:created="{Date}2014-10-23T01:26:40.263-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-01-18T14:24:27.572-05:00"
+                jcr:lastModified="{Date}2016-01-20T23:32:27.166-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="brucelefebvre/pgday-talk/components/text"
-                text="&lt;p>• Manage metadata with the Apps Dashboard&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Author content as a non-technical user&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Update app content Over-The-Air&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Preview app with PhoneGap Enterprise&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Analyze usage with Adobe Mobile Services&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Personalize with Adobe Target&lt;/span>&lt;/p>&#xa;"
+                text="&lt;p>• Over-the-air (no app store needed)&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Delta updates&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>• Open source!&amp;nbsp;&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;fragment&quot;>&lt;a adhocenable=&quot;false&quot; href=&quot;https://github.com/phonegap/phonegap-plugin-contentsync&quot; target=&quot;_blank&quot;>github.com/phonegap/phonegap-plugin-contentsync&lt;/a>&lt;/span>&lt;/p>&#xa;"
                 textIsRich="true"/>
         </content-par>
     </jcr:content>
