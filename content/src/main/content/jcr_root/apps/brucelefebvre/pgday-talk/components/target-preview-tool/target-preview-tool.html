@@ -1,4 +1,23 @@
 	<fieldset>
+        <label>
+            Age
+            <select name="age" onChange="pgday.targetAge(this.value);">
+				<option value="anon">Target Age</option>
+				<option value="10">10</option>
+				<option value="20">20</option>
+				<option value="30">30</option>
+				<option value="40">40</option>
+				<option value="50">50</option>
+				<option value="60">60</option>
+            </select>
+        </label>
+    </fieldset>
+
+
+<!--/*
+	Old gender controls
+
+	<fieldset>
         <label> 
             <input type="radio" name="gender" value="anon" checked="checked" onchange="pgday.targetGender(this.value);"> 
             Anonymous
@@ -14,3 +33,5 @@
             Female
         </label>
     </fieldset>
+
+*/-->
