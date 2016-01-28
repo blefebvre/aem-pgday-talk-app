@@ -47,6 +47,7 @@
                 sling:resourceType="brucelefebvre/pgday-talk/components/spacer"/>
         </content-par>
     </jcr:content>
+    <making-enterprise-stuff/>
     <hello/>
     <enterprise-software/>
     <agenda/>

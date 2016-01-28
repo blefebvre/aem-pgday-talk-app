@@ -31,10 +31,5 @@
                 sling:resourceType="mobileapps/components/image"
                 fileReference="/content/dam/brucelefebvre/pgday-talk/mobile-services-2.png"/>
         </content-par>
-        <image
-            jcr:lastModified="{Date}2016-01-18T16:39:40.194-05:00"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            imageRotate="0"/>
     </jcr:content>
 </jcr:root>

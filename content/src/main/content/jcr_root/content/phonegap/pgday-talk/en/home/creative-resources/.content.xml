@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/phonegap/brucelefebvre/pgday-talk"
-        cq:lastModified="{Date}2014-10-23T17:48:09.312-07:00"
+        cq:lastModified="{Date}2016-01-28T13:05:28.944-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
@@ -25,11 +25,11 @@
             <text
                 jcr:created="{Date}2014-10-23T17:44:32.809-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-23T17:48:09.309-07:00"
+                jcr:lastModified="{Date}2016-01-28T13:05:28.941-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="brucelefebvre/pgday-talk/components/text"
-                text="&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;https://www.lakewood-center.org/pages/Gift-Certificate&quot; target=&quot;_blank&quot;>Gift image&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;http://jackrabbit.apache.org/oak/&quot;>Jackrabbit Oak&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;http://sling.apache.org/&quot; target=&quot;_blank&quot;>Apache Sling&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;http://felix.apache.org/&quot; target=&quot;_blank&quot;>Apache Felix&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;http://lucene.apache.org/core/&quot; target=&quot;_blank&quot;>Apache Lucene&lt;/a>&lt;/p>&#xa;"
+                text="&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;https://www.lakewood-center.org/pages/Gift-Certificate&quot; target=&quot;_blank&quot;>Gift image&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;http://jackrabbit.apache.org/oak/&quot;>Jackrabbit Oak&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;http://sling.apache.org/&quot; target=&quot;_blank&quot;>Apache Sling&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;http://felix.apache.org/&quot; target=&quot;_blank&quot;>Apache Felix&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;http://lucene.apache.org/core/&quot; target=&quot;_blank&quot;>Apache Lucene&lt;/a>&lt;/p>&#xa;&lt;p>• &lt;a adhocenable=&quot;false&quot; href=&quot;http://galleryhip.com/yellow-lined-paper-texture.html&quot; target=&quot;_blank&quot;>Yellow lined paper&lt;/a>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
                 textIsRich="true"/>
         </content-par>
     </jcr:content>
