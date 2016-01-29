@@ -1,7 +1,13 @@
 var initShakeUpdate = function() {
 	var contentUpdater = CQ.mobile.contentUpdate({id: 'AEMAngularApp'});
+    var isUpdating = false;
 
 	var deviceShakeDetected = function() {
+        if (isUpdating) {
+            return;
+        }
+
+        isUpdating = true;
 		shake.stopWatch();
 		console.log('[shake] shake detected! Querying for an update');
 		
@@ -10,6 +16,7 @@ var initShakeUpdate = function() {
 			function callback(error, isUpdateAvailable) {
 				if (error) {
 					// Alert the error details.
+					watchForShake();
 					return navigator.notification.alert(error, null, 'ContentSync Error');
 				}
 
@@ -38,8 +45,9 @@ var initShakeUpdate = function() {
 					);
 				}
 				else {
-					navigator.notification.alert('App is up to date.', null, 'ContentSync Update', 'Done');
-        			watchForShake();
+                    navigator.notification.alert('App is up to date.', function() {
+        				watchForShake();
+                    }, 'ContentSync Update', 'Done');
 				}
 			}
 		);
@@ -48,6 +56,7 @@ var initShakeUpdate = function() {
 	var watchForShake = function() {
         // safe to use the PhoneGap API
         shake.startWatch(deviceShakeDetected);
+        isUpdating = false;
     };
 
 	document.addEventListener("deviceready", watchForShake, false);

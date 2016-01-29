@@ -7,7 +7,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/apps/brucelefebvre/pgday-talk/templates/prez-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Content Sync"
+        jcr:title="Target in action"
         sling:resourceType="brucelefebvre/pgday-talk/components/prez-page"
         page-transition="slide-animation">
         <content-par
