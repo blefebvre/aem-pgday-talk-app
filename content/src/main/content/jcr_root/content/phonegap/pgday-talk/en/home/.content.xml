@@ -59,12 +59,14 @@
     <jcr-and-oak/>
     <aem-pg/>
     <aem-pg-highlights/>
+    <aem-pg-highlights-2/>
     <coke-app/>
     <wwsc/>
     <pgday/>
     <app-management/>
     <analytics/>
     <target-demo/>
+    <target-props/>
     <content-sync-2/>
     <content-sync/>
     <tech-resources/>
