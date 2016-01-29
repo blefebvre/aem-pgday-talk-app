@@ -65,8 +65,8 @@
     <app-management/>
     <analytics/>
     <target-demo/>
-    <content-sync/>
     <content-sync-2/>
+    <content-sync/>
     <tech-resources/>
     <thanks/>
     <creative-resources/>
