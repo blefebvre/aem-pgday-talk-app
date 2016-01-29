@@ -23,16 +23,6 @@
                 sling:resourceType="brucelefebvre/pgday-talk/components/title"
                 style="white"
                 type="h1"/>
-            <title_0
-                jcr:created="{Date}2014-10-23T01:35:03.416-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-10-23T01:35:33.471-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                jcr:title="Questions?"
-                sling:resourceType="brucelefebvre/pgday-talk/components/title"
-                style="white"
-                type="h3"/>
             <spacer
                 jcr:created="{Date}2014-10-23T01:35:41.311-07:00"
                 jcr:createdBy="admin"
