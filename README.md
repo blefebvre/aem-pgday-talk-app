@@ -1,5 +1,9 @@
 # PhoneGap Day - Enterprise talk app
 
+### Slides
+
+Don't have access to an AEM instance? No problem - check out the slides here: http://brucelefebvre.com/slides/pgday-lehi-2016-enterprise/ (demo not included :( )
+
 ### Requirements
 
 - AEM 6.1 + Apps featurepack 3
@@ -24,3 +28,5 @@ From the project root, run:
     mvn -PautoInstallPackage clean install 
 
 ... to build the content package and install to a CQ instance. The CRX host and port can be specified on the command line with `mvn -Dcrx.host=otherhost -Dcrx.port=5502 <goals>`
+
+Upon successful install you will find a new entry in the Apps console, named [PhoneGap Day Talk](http://localhost:4502/libs/mobileapps/admin/content/dashboard.html/content/phonegap/pgday-talk/shell).
